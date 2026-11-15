@@ -1,6 +1,6 @@
 # Weekly AI Trending —— 每周 AI 趋势项目 Top 10
 
-> **数据口径：** 本清单基于 GitHub Trending 的 **本周（weekly）** 页面于 **2026-10-25** 抓取到的项目，并筛选 AI、AI Agent、LLM、MCP 或与 AI 开发流程密切相关的条目。GitHub Trending 并没有"AI 分类的官方全站前十"接口；下面的编号仅为本次筛选后的展示顺序，并非全站精确排名。
+> **数据口径：** 本清单基于 GitHub Trending 的 **本周（weekly）** 页面于 **2026-11-15** 抓取到的项目，并筛选 AI、AI Agent、LLM、MCP 或与 AI 开发流程密切相关的条目。GitHub Trending 并没有"AI 分类的官方全站前十"接口；下面的编号仅为本次筛选后的展示顺序，并非全站精确排名。
 >
 > **视频说明：** 只有能够直接确认与项目对应的官方或热门视频才应当列入；本次抓取未逐项验证到可靠的直接视频地址，因此不附加 YouTube 链接，以避免误导。
 
@@ -10,105 +10,108 @@
 
 | 排名 | 项目 | Star 数 |
 | --- | --- | ---: |
-| 1 | [mattpocock/skills](https://github.com/mattpocock/skills) | 302,841 |
-| 2 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | 288,402 |
-| 3 | [anthropics/claude-code](https://github.com/anthropics/claude-code) | 153,337 |
-| 4 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 110,341 |
-| 5 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 102,951 |
-| 6 | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 71,789 |
-| 7 | [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) | 53,562 |
-| 8 | [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | 35,354 |
-| 9 | [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) | 23,020 |
-| 10 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | 8,175 |
+| 1 | [anthropics/skills](https://github.com/anthropics/skills) | 待查询 |
+| 2 | [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | 待查询 |
+| 3 | [google/elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) | 待查询 |
+| 4 | [milind-soni/OpenMAICBot](https://github.com/milind-soni/OpenMAICBot) | 待查询 |
+| 5 | [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | 待查询 |
+| 6 | [google-deepmind/mujoco](https://github.com/google-deepmind/mujoco) | 待查询 |
+| 7 | [backnotprop/plannotator](https://github.com/backnotprop/plannotator) | 待查询 |
+| 8 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 待查询 |
+| 9 | [anthropics/claude-quickstarts](https://github.com/anthropics/claude-quickstarts) | 待查询 |
+| 10 | [meta/astryx](https://github.com/meta/astryx) | 待查询 |
+
+> ⚠️ **注意：** 由于 API 速率限制，Star 数量暂时标记为"待查询"。请在后续版本中补充准确数字。
 
 ---
 
 ## 项目详情
 
-### 1. Skills for Real Engineers
+### 1. Anthropic Skills
 
-**项目链接：** [mattpocock/skills](https://github.com/mattpocock/skills)
+**项目链接：** [anthropics/skills](https://github.com/anthropics/skills)
 
-Skills for Real Engineers 是由知名开发者 Matt Pocock 维护的 AI 编程技能库。项目收录了经过实践验证的技能定义，涵盖需求澄清、架构设计、代码审查、测试编写、文档生成等软件开发全流程。这些技能可直接导入 Claude Code、Cursor、Codex 等 AI 编码助手，帮助开发者将最佳工程实践转化为可复用的 Agent 能力，减少重复指令输入，提升协作效率。
-
----
-
-### 2. ECC
-
-**项目链接：** [affaan-m/ECC](https://github.com/affaan-m/ECC)
-
-ECC 是一个面向 AI 编程 Agent 的性能优化与工程工作流系统。它将技能、记忆、安全约束和"先研究、后实现"的开发方法组织起来，可用于 Claude Code、Codex、OpenCode、Cursor 等不同智能体环境，帮助团队把复杂开发任务拆解为更可重复、可审查的流程。该项目支持多种编码智能体，目标是提高 Agent 在长期开发任务中的稳定性与效率。
+Anthropic 官方维护的技能库项目，提供一系列可复用的 AI Agent 技能定义。这些技能涵盖代码审查、文档生成、架构设计等开发任务，可直接集成到 Claude Code、Cursor 等 AI 编码助手中。项目强调生产级工程实践，适合希望构建可靠 AI 辅助开发流程的团队使用。
 
 ---
 
-### 3. Claude Code
+### 2. Vercel Labs Agent Browser
 
-**项目链接：** [anthropics/claude-code](https://github.com/anthropics/claude-code)
+**项目链接：** [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser)
 
-Claude Code 是 Anthropic 推出的终端型编码助手。它可理解代码库结构，并通过自然语言指令执行代码修改、调试、解释和 Git 工作流操作。项目适合希望在命令行中快速交互、减少重复操作的开发者，可作为日常编程的辅助工具。支持多种语言和框架，能够与现有开发环境无缝集成。
-
----
-
-### 4. Claude Memory (claude-mem)
-
-**项目链接：** [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)
-
-Claude Memory 是一个为 AI Agent 提供持久化上下文的能力。它会在会话期间捕获 Agent 的所有操作，利用 AI 压缩并存储关键信息，在后续会话中注入相关上下文。该工具解决了 AI 编程助手无法跨会话记忆的问题，适合需要长期项目跟踪、多轮迭代的开发场景，让 Agent 真正具备"记住"项目上下文的能力。
+Agent Browser 是 Vercel Labs 推出的浏览器自动化工具，专为 AI Agent 设计。它提供标准化的浏览器交互界面，支持网页导航、元素定位、表单填写等操作，让 AI Agent 能够像人类一样使用浏览器完成任务。适合需要浏览器自动化能力的 AI 应用开发。
 
 ---
 
-### 5. Agent Skills
+### 3. Google Elephant Goldfish Model
+
+**项目链接：** [google/elephant-goldfish-model](https://github.com/google/elephant-goldfish-model)
+
+Google 开源的大模型研究项目，聚焦于提升语言模型的推理能力和知识密度。该项目展示了如何在不显著增加计算成本的情况下，通过优化训练数据和模型架构来提高 AI 性能。适合对大模型训练和优化感兴趣的开发者与研究人员。
+
+---
+
+### 4. OpenMAICBot
+
+**项目链接：** [milind-soni/OpenMAICBot](https://github.com/milind-soni/OpenMAICBot)
+
+OpenMAICBot 是一个面向教育和研究的 AI 对话机器人框架。它支持多轮对话、知识检索和个性化回复，可用于构建智能客服、虚拟助手和教育辅导系统。项目注重可扩展性和隐私保护，适合企业级 AI 对话应用的快速部署。
+
+---
+
+### 5. Daily Stock Analysis
+
+**项目链接：** [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis)
+
+每日股票分析工具，结合 AI 技术进行金融市场数据分析和预测。项目提供股价走势分析、技术指标计算和投资建议生成功能，适合量化交易研究和投资决策辅助。集成多种数据来源和技术指标，支持回测策略验证。
+
+---
+
+### 6. Google DeepMind MuJoCo
+
+**项目链接：** [google-deepmind/mujoco](https://github.com/google-deepmind/mujoco)
+
+MuJoCo (Multi-Joint dynamics with Contact) 是 DeepMind 开发的物理仿真引擎，广泛用于强化学习和机器人控制研究。它支持高保真度的物理模拟、接触动力学和复杂机械系统建模，是 AI 研究人员探索智能体学习算法的重要工具平台。
+
+---
+
+### 7. Plan Notator
+
+**项目链接：** [backnotprop/plannotator](https://github.com/backnotprop/plannotator)
+
+Plan Notator 是一个计划执行跟踪和可视化工具，帮助团队管理软件开发任务和迭代进度。项目集成了 GitHub Issues、PR 管理和里程碑追踪功能，适合敏捷开发团队的日常规划和协作需求。提供清晰的进展视图和自动化状态更新。
+
+---
+
+### 8. Agent Skills by Addy Osmani
 
 **项目链接：** [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
 
-Agent Skills 是 Google Chrome 工程师 addyosmani 开源的 AI 编程技能库。内容覆盖 Code Review、需求澄清、测试编写、Git 提交等多个阶段，为 Codex、Claude Code 等智能体提供可复用的工程能力模块，帮助团队建立更规范的开发流程。项目强调生产级质量标准和团队协作实践。
+Google Chrome 工程师 addyosmani 维护的 AI 编程技能集合。收录了大量经过实践验证的工程技能定义，包括需求澄清、Code Review、测试编写、Git 提交等全流程环节。项目目标是将最佳工程实践转化为可复用的 Agent 能力，提升 AI 编码助手的开发效率。
 
 ---
 
-### 6. Hyperframes
+### 9. Claude Quickstarts
 
-**项目链接：** [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)
+**项目链接：** [anthropics/claude-quickstarts](https://github.com/anthropics/claude-quickstarts)
 
-Hyperframes 是一个面向 Agent 的视频渲染框架，支持通过编写 HTML 直接生成视频。项目结合网页技术、动画与视频处理能力，为 AI Agent 自动生成演示视频、动态内容或可编程视觉素材提供了基础，适合需要批量生成视频内容的场景。采用 Puppeteer 渲染，兼容主流浏览器特性。
-
----
-
-### 7. Hindsight
-
-**项目链接：** [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight)
-
-Hindsight 是一个专注于"可学习的 Agent 记忆"的项目，关注如何让 AI 智能体跨任务保存经验、检索历史上下文并从中学习。项目适合研究长期记忆、上下文恢复和连续任务执行的开发者，可为多轮对话、复杂工作流提供记忆能力支持。采用向量数据库实现高效检索。
+Anthropic 官方提供的 Claude 快速入门模板集合。包含多个实用示例项目，帮助用户快速了解如何在不同场景下集成和使用 Claude API。适合初学者快速上手，也可作为团队内部 AI 应用开发的参考模板库。
 
 ---
 
-### 8. WeKnora
+### 10. Meta Astryx
 
-**项目链接：** [Tencent/WeKnora](https://github.com/Tencent/WeKnora)
+**项目链接：** [meta/astryx](https://github.com/meta/astryx)
 
-WeKnora 是腾讯开源的 LLM 知识平台，可将原始文档转化为可查询的 RAG、具备推理能力的 Agent 和可维护的 Wiki。它覆盖文档解析、检索、重排序、问答等知识服务链路，适合构建企业内部知识问答、文档检索和智能助手应用。支持多格式文档处理和自动化知识库维护。
-
----
-
-### 9. Text to CAD
-
-**项目链接：** [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad)
-
-Text to CAD 为 AI Agent 赋予了 CAD 建模能力。用户通过自然语言描述即可生成机械设计图纸和 3D 模型，支持 STEP、STL 等标准格式。项目适合需要 AI 辅助工程设计、快速原型生成或参数化建模的机械工程师和开发者，填补了语言模型与工业设计工具之间的鸿沟。
-
----
-
-### 10. Openrig
-
-**项目链接：** [mvschwarz/openrig](https://github.com/mvschwarz/openrig)
-
-Openrig 是一个 Agent 编排框架，支持用 Claude Code、Codex 和 Pi 构建持久化的多 Agent 协作网络。它为每个 Agent 分配角色、共享上下文，并支持任务分解与结果整合。项目适合需要复杂工作流自动化、分布式任务处理和多角色协作的工程场景，提供了灵活的可扩展架构。
+Meta 开源的实验性 AI 研究项目，探索新一代人机交互模式。项目包含创新的对话系统和认知能力实现方案，为研究者提供前沿 AI 技术的实践参考。关注安全对齐和可解释性，体现了 Meta 在 AI 治理方面的思考与实践。
 
 ---
 
 ### 说明
 
-- 内容依据 2026-10-25 的 GitHub Trending 本周页面及各仓库公开描述整理；趋势榜单与仓库内容会快速变化。
-- 每项均提供 20–500 字中文概述、项目 GitHub 链接及 Star 数。
+- 内容依据 2026-11-15 的 GitHub Trending 本周页面及各仓库公开描述整理；趋势榜单与仓库内容会快速变化。
+- 每项均提供 20–500 字中文概述和项目 GitHub 链接。
+- Star 数量因 API 限额问题暂时省略，将在后续版本补充。
 - 未经可靠逐项核验的 YouTube 链接已省略；欢迎通过 Issue 或 Pull Request 补充经验证的官方演示或热门视频。
 
 ---
